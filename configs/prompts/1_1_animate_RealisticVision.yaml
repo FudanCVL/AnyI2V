@@ -1,0 +1,19 @@
+- dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+
+  inference_config: "configs/inference/inference-v3.yaml"
+  motion_module: "models/Motion_Module/v3_sd15_mm.ckpt"
+
+  seed: [4162228652802886667]
+
+  prompt:
+    - "A majestic horse running across a grassy field, cinematic lighting, high resolution." 
+
+  n_prompt:
+    - "cartoon, anime, sketches,worst quality, low quality, deformed, distorted, disfigured, bad eyes, wrong lips, weird mouth, bad teeth, mutated hands and fingers, bad anatomy, wrong anatomy, amputation, extra limb, missing limb, floating limbs, disconnected limbs, mutation, ugly, disgusting, bad_pictures, negative_hand-neg"
+
+  trajectory:
+    - "__assets__/trajectory/horse-canny.json"
+
+  image_path:
+    - "__assets__/image/horse-canny.jpg"
+
