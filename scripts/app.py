@@ -27,7 +27,7 @@ from transformers import CLIPTextModel, CLIPTokenizer
 # 1. SETUP & CONFIGURATION
 # =============================================================================
 DREAMBOOTH_PATH = "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
-PRETRAINED_MODEL_PATH = "/home/zyli/pretrained/models--runwayml--stable-diffusion-v1-5/"
+PRETRAINED_MODEL_PATH = "runwayml/stable-diffusion-v1-5"
 MOTION_MODULE_PATH = "models/Motion_Module/v3_sd15_mm.ckpt"
 INFERENCE_CONFIG_PATH = "configs/inference/inference-v3.yaml"
 HYPER_PARAMS_CONFIG_PATH = "configs/prompts/hyper_params.yaml"
