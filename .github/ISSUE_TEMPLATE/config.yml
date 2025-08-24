@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 Q&A / Usage Questions (English only)
+    url: https://github.com/FudanCVL/SynFMC/discussions
+    about: Please open general questions in Discussions.
+
+  - name: 🐞 Report a Bug via Form (English only)
+    url: https://github.com/FudanCVL/SynFMC/issues/new?template=bug-report.yml
+    about: Use the bug report form.
+
+  - name: 🌟 Feature Request via Form (English only)
+    url: https://github.com/FudanCVL/SynFMC/issues/new?template=feature-request.yml
+    about: Use the feature request form.
+
+  - name: 🔒 Security / Vulnerability Report
+    url: mailto:henghui.ding@gmail.com
+    about: Please email security issues privately.
